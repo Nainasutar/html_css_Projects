@@ -1,0 +1,176 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #8766b4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+img {
+    max-width: 30%; /* Ensures the image does not exceed its container's width */
+    height: auto; /* Allows the image to maintain its aspect ratio */
+    display: block; /* Ensures proper spacing and alignment */
+    margin: 0 auto 20px; /* Center the image horizontally and add space below it */
+}
+
+nav {
+    background-color: #a274d5;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #0e0e0e;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+main {
+    background-color: #8766b4;
+    text-align: center;
+}
+section {
+    margin-bottom: 20px;
+    background-color: #8766b4;
+    text-align: center;
+}
+
+article {
+    background-color: #a274d5;
+    padding: 20px;
+    border-radius: 5px;
+}
+h1{
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.number {
+    display: inline-block;
+    width: 1.5em; /* Adjust width as needed */
+    text-align: right;
+    margin-right: 0.5em; /* Adjust margin as needed */
+}
+div
+    img {
+        max-width: 10%; /* Ensures the image does not exceed its container's width */
+        height: auto; /* Allows the image to maintain its aspect ratio */
+        display: block; /* Ensures proper spacing and alignment */
+        margin: 0 auto 20px; /* Center the image horizontally and add space below it */
+    }
+.doctor-profile {
+    display: block;
+    background-color: #a274d5;
+    padding: 20px;
+   /* border: 1px solid #ccc;*/
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.doctor-profile h3 {
+    color: #fff;
+}
+
+.health-info-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.health-info-section h3 {
+    color: #fff;
+}
+
+.health-info-section ol {
+    margin-left: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #58486c;
+    text-align: center;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #9e4cd5;
+}
+
+form {
+    background-color: #8766b4;
+    display: block;
+    /*width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #531897;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: block;*/
+}
+user agent stylesheet
+form {
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 1em;
+}
+body {
+    background-color: #a274d5;
+    color: black;
+    font-family: Arial, sans-serif;
+}
